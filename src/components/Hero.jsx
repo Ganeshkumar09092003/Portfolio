@@ -26,8 +26,8 @@ const Hero = () => {
 
         <div className="mt-10 flex flex-wrap gap-4 animate-fade-in-up delay-300">
           <a
-            href="/Ganesh_Kumar_Resume.pdf"
-            className="group px-8 py-4 bg-sky-500 hover:bg-sky-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-sky-500/50 active:scale-95"
+            href="/ganesh_kumar_resume.pdf"
+            className="group px-8 py-4 bg-sky-500 hover:bg-sky-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-sky-500/50 active:scale-95" target="_blank"
           >
             Download Resume
             <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>

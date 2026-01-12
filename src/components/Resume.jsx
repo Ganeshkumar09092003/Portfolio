@@ -4,8 +4,8 @@ const Resume = () => {
       <h2 className="text-3xl font-semibold mb-6">Resume</h2>
 
       <a
-        href="/Ganesh_Kumar_Resume.pdf"
-        className="inline-block px-6 py-3 bg-sky-500 text-black rounded"
+        href="/ganesh_kumar_resume.pdf"
+        className="inline-block px-6 py-3 bg-sky-500 text-black rounded" target="_blank"
       >
         Download Resume (PDF)
       </a>
