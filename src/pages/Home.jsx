@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
@@ -7,14 +8,17 @@ import Contact from "../components/Contact";
 
 const Home = () => {
   return (
-    <main className="bg-slate-950 text-gray-200">
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Contact />
-    </main>
+    <>
+      <Navbar />
+      <main className="bg-slate-950 text-gray-200 pt-16 md:pt-20">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Resume />
+        <Contact />
+      </main>
+    </>
   );
 };
 
